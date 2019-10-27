@@ -1,1 +1,18 @@
+
 // Write your code here!
+document.querySelector("main#main").remove();
+
+
+
+
+
+// const newHeader = body.createElement('h1');
+// newHeader.id = 'victory'
+// newHeader.innerHTML = "David is the champion";
+
+const newHeader = document.createElement("h1");
+newHeader.id = "victory"
+newHeader.innerHTML = "Flatiron School is the champion!";
+newHeader.className = "victory";
+
+
